@@ -1,9 +1,10 @@
 ---
 permalink: /contact/
-title: "contact"
+title: "Contact"
 author_profile: true
 redirect_from: 
-  - /contact/
+  - /md/
+  - /markdown.html
 ---
 
 ## Address
