@@ -22,8 +22,11 @@
   <div class="author__urls-wrapper">
     <button class="btn btn--inverse">Follow</button>
     <ul class="author__urls social-icons">
-      {% if author.location %}
+      <!-- {% if author.location %}
         <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</li>
+      {% endif %} -->
+      {% if author.location %}
+        <li><i><svg t="1694657633343" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2542" width="200" height="200"><path d="M923.63904 424.82944c0-231.85792-184.29568-419.80544-411.64416-419.80544-227.34208 0-411.63904 187.94752-411.63904 419.80544 0 7.35872 0.7104 14.47168 1.08288 21.67552-0.33792 3.5584-1.08288 6.99008-1.08288 10.64192 0 258.38592 379.97952 551.06688 379.97952 551.06688s31.66336 24.21504 63.328 0c31.66336-24.24192 379.97952-292.68096 379.97952-551.06688 0-3.65184-0.74496-7.08352-1.08288-10.64192C922.92864 439.30112 923.63904 432.18816 923.63904 424.82944L923.63904 424.82944zM511.99488 586.336c-87.44832 0-158.31936-72.29312-158.31936-161.50656 0-89.15072 70.86976-161.4464 158.31936-161.4464 87.45344 0 158.32832 72.29568 158.32832 161.4464C670.3232 514.04288 599.44832 586.336 511.99488 586.336L511.99488 586.336zM511.99488 586.336" fill="#272636" p-id="2543"></path></svg></i> {{  author.location }}</li>
       {% endif %}
       {% if author.employer %}
         <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.employer }}</li>
@@ -31,8 +34,11 @@
       {% if author.uri %}
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a></li>
       {% endif %}
-      {% if author.email %}
+      <!-- {% if author.email %}
         <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].email_label | default: "Email" }}</a></li>
+      {% endif %} -->
+      {% if author.email %}
+        <li><a href="mailto:{{ author.email }}"><i><svg t="1694657711564" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3560" width="200" height="200"><path d="M893.421013 263.914762c-1.982144 16.412808-9.237385 32.210609-21.676695 44.729737L581.597101 598.791715c-29.696346 29.696346-78.243015 29.696346-107.939361 0L183.510524 308.644499c-12.519128-12.519128-19.770276-28.396747-21.676695-44.729737-0.38374 3.130294-0.611937 6.259564-0.611937 9.465582l0 396.939451c0 41.983183 34.348296 76.335572 76.336596 76.335572l580.14196 0c41.980113 0 76.332503-34.352389 76.332503-76.335572L894.03295 273.380344C894.03295 270.174326 893.804752 267.045055 893.421013 263.914762L893.421013 263.914762 893.421013 263.914762zM581.597101 543.222095l304.193117-304.19414c-12.598946-24.883737-38.473243-41.983183-68.089771-41.983183L237.558487 197.044772c-29.616528 0-55.499012 17.099447-68.089771 41.983183L473.65774 543.222095C503.349993 572.917418 551.900755 572.917418 581.597101 543.222095L581.597101 543.222095 581.597101 543.222095z" fill="#272636" p-id="3561"></path></svg></i> {{ site.data.ui-text[site.locale].email_label | default:  "Email" }}</a></li>
       {% endif %}
       {% if author.keybase %}
         <li><a href="https://keybase.io/{{ author.keybase }}"><i class="fas fa-fw fa-key" aria-hidden="true"></i> Keybase</a></li>
@@ -64,8 +70,11 @@
       {% if author.bitbucket %}
         <li><a href="https://bitbucket.org/{{ author.bitbucket }}"><i class="fab fa-fw fa-bitbucket" aria-hidden="true"></i> Bitbucket</a></li>
       {% endif %}
-      {% if author.github %}
+      <!-- {% if author.github %}
         <li><a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i> Github</a></li>
+      {% endif %} -->
+      {% if author.github %}
+        <li><a href="https://github.com/{{ author.github }}"><i><svg t="1694657938823" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4519" width="200" height="200"><path d="M64 512c0 195.2 124.8 361.6 300.8 422.4 22.4 6.4 19.2-9.6 19.2-22.4v-76.8c-134.4 16-140.8-73.6-150.4-89.6-19.2-32-60.8-38.4-48-54.4 32-16 64 3.2 99.2 57.6 25.6 38.4 76.8 32 105.6 25.6 6.4-22.4 19.2-44.8 35.2-60.8-144-22.4-201.6-108.8-201.6-211.2 0-48 16-96 48-131.2-22.4-60.8 0-115.2 3.2-121.6 57.6-6.4 118.4 41.6 124.8 44.8 32-9.6 70.4-12.8 112-12.8 41.6 0 80 6.4 112 12.8 12.8-9.6 67.2-48 121.6-44.8 3.2 6.4 25.6 57.6 6.4 118.4 32 38.4 48 83.2 48 131.2 0 102.4-57.6 188.8-201.6 214.4 22.4 22.4 38.4 54.4 38.4 92.8v112c0 9.6 0 19.2 16 19.2C832 876.8 960 710.4 960 512c0-246.4-201.6-448-448-448S64 265.6 64 512z" fill="#040000" p-id="4520"></path></svg></i>  Github</a></li>
       {% endif %}
       {% if author.stackoverflow %}
         <li><a href="https://www.stackoverflow.com/users/{{ author.stackoverflow }}"><i class="fab fa-fw fa-stack-overflow" aria-hidden="true"></i> Stackoverflow</a></li>
@@ -119,7 +128,7 @@
         <li><a href="https://en.wikipedia.org/wiki/User:{{ author.wikipedia }}"><i class="fab fa-fw fa-wikipedia-w" aria-hidden="true"></i> Wikipedia</a></li>
       {% endif %}
       {% if author.CSDN %}
-        <li><a href="{{ author.CSDN }}"><i><svg t="1694656319789" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1469" width="200" height="200"><path d="M512 0c282.784 0 512 229.216 512 512s-229.216 512-512 512S0 794.784 0 512 229.216 0 512 0z m189.952 752l11.2-108.224c-31.904 9.536-100.928 16.128-147.712 16.128-134.464 0-205.728-47.296-195.328-146.304 11.584-110.688 113.152-145.696 232.64-145.696 54.784 0 122.432 8.8 151.296 18.336L768 272.704C724.544 262.24 678.272 256 599.584 256c-203.2 0-388.704 94.88-406.4 263.488C178.336 660.96 303.584 768 535.616 768c80.672 0 138.464-6.432 166.336-16z" fill="#CE000D" p-id="1470"></path></svg></i> CSDN</a></li>
+        <li><a href="{{ author.CSDN }}"><i><svg t="1694656319789" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1469" width="200" height="200"><path d="M512 0c282.784 0 512 229.216 512 512s-229.216 512-512 512S0 794.784 0 512 229.216 0 512 0z m189.952 752l11.2-108.224c-31.904 9.536-100.928 16.128-147.712 16.128-134.464 0-205.728-47.296-195.328-146.304 11.584-110.688 113.152-145.696 232.64-145.696 54.784 0 122.432 8.8 151.296 18.336L768 272.704C724.544 262.24 678.272 256 599.584 256c-203.2 0-388.704 94.88-406.4 263.488C178.336 660.96 303.584 768 535.616 768c80.672 0 138.464-6.432 166.336-16z" fill="#CE000D" p-id="1470"></path></svg></i>  CSDN</a></li>
       {% endif %}
     </ul>
   </div>
