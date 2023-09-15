@@ -24,5 +24,6 @@ Nanjing Normal University\
 
 ## Wechat
 
-![Wechat QR code](../images/wechat.jpg)
+<img src="../images/wechat.jpg" alt="Wechat QR code" width="300" height="300">
+
 You can add me wechat by scanning the QR code above.
