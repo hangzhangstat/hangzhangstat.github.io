@@ -8,6 +8,7 @@ redirect_from:
 ---
 
 ## Internship Experience
+
 - **2023.07-2023.09 \| Bank of Beijing Nanjing Branch** 
   - **Project Research:** Complete the project report on the practice of digital transformation and innovation, and put forward three risk prevention measures from the aspects of business, technology and data in combination with the project construction.
   - **Industry Research:** Sort out the credit products of Nanjing Kechuang financial institutions, find out the similarities and differences of various banks in terms of loan limits and credit requirements, and form industry analysis reports.
@@ -26,12 +27,14 @@ redirect_from:
 
 
 ## Campus Experience
+
 - **2022.07-2023.07 \| Nanjing Normal University Graduate Student Association \| Minister**
 
 - **2022.07-2023.07 \| School of Mathematical Science \| The second Party branch of graduate students \| Committee member**
 
 
 ## Project Experience
+
 - **2021.10-2021.12 \| China Graduate Mathematical Contest in Modeling \| National Second Prize**
   - **Research Question:** The topic is about the secondary modeling of air quality forecast. Based on the primary forecast data and measured data of the given model, the secondary model is built to optimize the forecast.
   - **Research Content:** After reading a lot of literature, the predictive modeling was completed by using TSI classification, cluster analysis, neural network optimization and Gaussian diffusion model for space problems.
@@ -40,7 +43,17 @@ redirect_from:
 - **2020.02-2020.08 \| National College Students Market Research and Analysis Competition \| National First Prize**
   - **Research Content:** With the purpose of analyzing the current situation of Chinese comics and looking for the driving force of their rise, the author combined the views of creators, producers and consumers to carry out a 6-month research.
   - **Research Achievement:** [《Analysis of the status quo of the Chinese cartoon industry in the IP era and exploration of the driving force of its rise》](../files/IP时代下的国漫产业现状分析和崛起驱动力探索.pdf) 
+
 - **2019.11-2020.11 \| Anhui University Students Innovation and Entrepreneurship Training Program \| Leader**
   - **Project Name:** “Study on agglomeration effect and innovation path of Yangtze River Delta tourism Industry based on location entropy and PCA: A case study of eight cities in Anhui Province.”
   - **Project Summary:** By constructing EG index and PCA model, the structure and influencing factors of tourism industry agglomeration were analyzed from both qualitative and quantitative perspectives, providing theoretical basis and suggestions for the development of industrial agglomeration in multiple dimensions.
 
+## Skills
+
+- **Program Languages**
+  - Proficient: Python(primary), Matlab
+  - Competent: R, Stata, etc.
+- **Other Tools**
+  - LaTex
+  - Markdown
+  - Git
