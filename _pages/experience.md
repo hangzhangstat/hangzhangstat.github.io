@@ -9,17 +9,17 @@ redirect_from:
 
 ## Internship Experience
 
-- **2023.07-2023.09 \| <img src="../images/beijing bank.png" alt="beijing bank logo" width="16" height="16"> Bank of Beijing Nanjing Branch** 
+- **2023.07-2023.09 \| <img src="../images/beijing bank.png" alt="beijing bank logo" width="17" height="17"> Bank of Beijing Nanjing Branch** 
   - **Project Research:** Complete the project report on the practice of digital transformation and innovation, and put forward three risk prevention measures from the aspects of business, technology and data in combination with the project construction.
   - **Industry Research:** Sort out the credit products of Nanjing Kechuang financial institutions, find out the similarities and differences of various banks in terms of loan limits and credit requirements, and form industry analysis reports.
   - **Report Development:** Independently completed Python script development of 10 automatic daily reports for the bank's newly launched specialized and special "Vanguard e-loan" product, which significantly improved efficiency.
 
-- **2021.03-2021.09 \| <img src="../images/iflytek.png" alt="iflytek logo" width="16" height="16"> Iflytek Co., Ltd.**
+- **2021.03-2021.09 \| <img src="../images/iflytek.png" alt="iflytek logo" width="18" height="18"> Iflytek Co., Ltd.**
   - **Project Requirements:** Connect with business parties, clarify the function points of BI data Kanban, summarize product sales data by region, channel and agent, and visually display it.
   - **Interface Design:** Selected the indicators needed by Kanban according to the requirements of leaders and carried out data cleaning and statistical analysis. Designed Kanban interface in Excel in the early stage and presented it dynamically
   - **System Development:** Mainly responsible for integrating data resources and requirements, the overall architecture of the product line, and cooperating with engineers to develop Kanban system through PowerBI and Java deployment.
 
-- **2019.01-2019.02 \| <img src="../images/east money.png" alt="east money logo" width="16" height="16"> East Money Information Co., Ltd.**
+- **2019.01-2019.02 \| <img src="../images/east money.png" alt="east money logo" width="17" height="17"> East Money Information Co., Ltd.**
   - **Research Content:** Study the operating model and profit model of domestic K12 education and training industry, and take "Zhonggong Education" as an example to analyze and write the research report.
   - **Information Collection:** Interpret the policy and the overall status quo of education and training from a macro perspective, and collect the annual report announcement and financial information of Zhonggong Education Company through wind.
   - **Technical Prediction:** Using Python to forecast various indicators such as the price-earnings ratio of China Public Education, sorting out financial statements, and making technical analysis of stocks such as the golden section.
